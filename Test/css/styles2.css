@@ -1,13 +1,38 @@
 ﻿body {
-    background: #262a2b;
+    background: url('../img/8727.jpg');
+    background-size: cover;
 }
 
 .titre {
+    font-size: 40px;
+    font-family: Georgia;
     text-align: center;
-    text-shadow: 0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;
-    color: #0061FE;
-    background-color: #262a2b;
+    font-weight: normal;
+    background-color: rgb(55 181 161);
+    margin: 0.67em 0;
+    color: #000;
 }
+
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    margin: 10px 500px 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+    .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+
 .tilesWrap {
     padding: 0;
     margin: 50px auto;
@@ -26,7 +51,7 @@
         margin: 10px;
         font-family: 'helvetica', san-serif;
         min-height: 25vh;
-        background: #262a2b;
+        background: #ECECEC;
         border: 1px solid #252727;
         text-align: left;
     }
@@ -43,14 +68,14 @@
 
         .tilesWrap li h3 {
             font-size: 20px;
-            color: #b7b7b7;
+            color: #000;
             margin-bottom: 5px;
         }
 
         .tilesWrap li p {
             font-size: 16px;
             line-height: 18px;
-            color: #b7b7b7;
+            color: #000;
             margin-top: 5px;
         }
 
@@ -58,7 +83,7 @@
             background: transparent;
             border: 1px solid #b7b7b7;
             padding: 10px 20px;
-            color: #b7b7b7;
+            color: #000;
             border-radius: 3px;
             position: relative;
             transition: all 0.3s ease-in-out;
@@ -73,7 +98,7 @@
                 position: absolute;
                 height: 100%;
                 width: 120%;
-                background: #b7b7b7;
+                background: rgb(55 181 161);
                 top: 0;
                 opacity: 0;
                 left: -140px;
